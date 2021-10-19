@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Desafio 2/favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;    
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color:darkred
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: rgb(238, 238, 238);
+        }
+        .especial{
+            background-color: rgb(224, 167, 167);
+            color: white;
+        }
+        .especial::before{
+            content: "⇒ ";
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+        }
+        .especial::after{
+            content: ' ⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com" class="especial"target="_blank">Repositorio GitHUb</a></li>
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" class="especial" target="_blank">Canal Do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/course/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-13-aula-00-o-que-vamos-aprender-no-modulo-02/" class="especial"target="_blank">Site Curso em Video</a></li>
+    </ul>
+</body>
+</html>

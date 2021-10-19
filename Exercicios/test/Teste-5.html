@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 05</title>
+    <style>
+        body{background-color: rgba(136, 129, 129, 0.541);}
+        div#inicial{
+            background-color: silver;
+            text-align: center;
+            width: 500px;
+            display: block;
+            margin: auto;
+            border: 1px solid blue;
+        }
+        .menu{
+            background-color: silver;
+            text-align: center;
+            width: 150px;
+            display: inline-block,block;
+            margin: auto;
+            border: 1px solid rgb(0, 0, 0);
+        }
+        .menu > ul{
+            display: none;
+        }
+        .menu:hover > ul{
+            display: block;
+            background-color: rgb(177, 176, 176);
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+        .corpo{
+            background-color: silver;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            text-align: center;
+           
+            border: 1px solid black;
+            width: 150px;
+            height: auto;
+        }
+        .corpo > img {
+            display: none;
+        }
+        .corpo:hover > img {
+            display: block;
+            margin: auto;
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="inicial" ><h1>Test de Divis</h1></div>
+    <div class="menu" id="">menu1
+        <ul>
+            <li><a href="Teste-1.html">Teste 1</a></li>
+            
+            <li><a href="Teste-2.html">Teste 2</a></li>
+            
+            <li><a href="Teste-3.html">Teste 3</a></li>
+
+            <li><a href="Teste-4.html">Teste 4</a></li>
+        </ul>
+    </div>
+    <div class="menu">menu2
+        <ul>
+            <li>1</li>
+            
+            <li>2</li>
+            
+            <li>3</li>
+        </ul>
+    </div>
+        
+    <div class="menu">menu3
+        <ul>
+            <li>1</li>
+            
+            <li>2</li>
+            
+            <li>3</li>
+        </ul>
+    </div>
+    <div class="corpo">IMAGEM
+        <img src="../test/Teste-3-Imagens/yuji-m.jpg" alt="">
+    </div>
+</body>
+</html>

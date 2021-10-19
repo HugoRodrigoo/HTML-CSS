@@ -1,0 +1,22 @@
+body{
+    background: blueviolet;
+    font-size: 20px;
+}
+h1{
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    background: rgb(229, 151, 193);
+   
+
+}
+h2{
+    color: rgb(235, 59, 205);
+    font-size: 1.2em;
+    
+}
+p{
+    text-align: justify;
+
+
+}

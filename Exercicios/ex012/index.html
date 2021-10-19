@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Desafio 2/favicon.ico" type="image/x-icon">
+    <title>VIdios Com HTML5</title>
+    <link rel="stylesheet" href="../ex014/style.css">
+</head>
+<body>
+    <h1>Incerindo videos hospedado localmente</h1>
+    <p>este vidio esta hospedado  no meu proprio servidor</p>
+
+    
+    <video width="560" poster="imagens/limao-17083.jpg" controls preload="metadata" autoplay loop>
+
+        <source src="midia/meu-vidio.mp4" type="video/mp4">
+        <source src="midia/meu-vidio.webm" type="video/webm">
+
+        <p>Seu navegador não tem suporte para o video clique <a href="midia/meu-vidio.webm"
+            type="external">aqui</a> para baixar</p>
+    </video>
+    
+    <h1>Incerindo video do Youtube</h1>
+    <iframe  width="560" height="315" src="https://www.youtube.com/embed/0ZQCJIEJA8c?start=43" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+    
+    <h1>Incerino video do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/29844795?h=f0a1764666&color=ff9933&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
